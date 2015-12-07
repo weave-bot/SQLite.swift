@@ -2,7 +2,7 @@ $LOAD_PATH << '.'
 require 'Supporting Files/podspec.rb'
 
 Pod::Spec.new do |spec|
-  spec.name = 'SQLite.swift'
+  spec.name = 'WeaveSQLite.swift'
   spec.summary = 'A type-safe, Swift-language layer over SQLite3.'
 
   spec.description = <<-DESC
