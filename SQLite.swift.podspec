@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     intent.
   DESC
 
-  apply_shared_config spec, 'SQLite'
+  apply_shared_config spec, 'WeaveSQLite'
 
   spec.exclude_files = 'Source/Cipher/Cipher.swift'
   spec.library = 'weave-sqlite3'
