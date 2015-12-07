@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   apply_shared_config spec, 'WeaveSQLite'
 
   spec.exclude_files = 'Source/Cipher/Cipher.swift'
-  spec.library = 'sqlite3'
+  spec.library = 'weave-sqlite3'
 end
